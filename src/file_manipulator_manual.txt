@@ -1,0 +1,16 @@
+The following commands can be executed.
+
+reverse <inputpath> <outputpath>: 
+    Takes a file in <inputpath> and creates a new file in <outputpath> with the contents of <inputpath> reversed.
+copy <inputpath> <outputpath>:
+    Make a copy of the file in <inputpath> and save it as <outputpath>.
+duplicateContents <inputpath> n:
+    Reads the contents of the file in <inputpath>, duplicates the contents, and replicates the duplicated contents n times in <inputpath>.
+replaceString <inputpath> needle newstring:
+    Searches the contents of the file in <inputpath> for the string 'needle' and replaces all of 'needle' with 'newstring'.
+
+usage:
+python3 file_manipulator.py reverse <inputpath> <outputpath>
+python3 file_manipulator.py copy <inputpath> <outputpath>
+python3 file_manipulator.py duplicateContents <inputpath> n
+python3 file_manipulator.py replaceString <inputpath> needle newstring

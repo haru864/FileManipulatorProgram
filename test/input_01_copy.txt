@@ -1,0 +1,2 @@
+Hello, World!!
+This is input_01, text file.
